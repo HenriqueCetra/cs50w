@@ -2,8 +2,79 @@
 <html lang="en">
     <head>
         <title>Google Advanced</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+        <!-- Bootsrap CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
     <body>
-        <h1>Google Advanced Page</h1>
+        <div class="advancedHeader">
+            <div id="littleGoogleImage">
+                <img src="images\google.png" alt="Google Images" >
+            </div>
+            <a href="index.html">Google Search</a>
+        </div>
+
+        <div class="advancedSubHeader">
+            <h3>Advanced Search</h3>
+        </div> 
+
+        <form action="https://www.google.com/search">
+            <div class="inputOne">
+                <div class="textDesHeader">Find pages with...</div>
+                <div class="ToDoHeading">Do this in the search box.</div>
+            </div>
+
+            <div class="inputOne">
+                <div class="textDes">all these words:</div>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+                <div class="toDo">Put the exact words in quotes: "rat terrier"</div>
+            </div>
+
+            <div class="inputOne">
+                <div class="textDes">any of these words:</div>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+                <div class="toDo">Type OR between all intended words: miniature OR standard</div>
+            </div>
+
+            <div class="inputOne">
+                <div class="textDes">none of these words:</div>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+                <div class="toDo">Place a minus sign immediately before the unintended words: -rodent, - "Jack Russell"</div>
+            </div>
+
+            <div class="inputOne">
+                <div class="textDes">numbers between:</div>
+                <div class="input-field">
+                    <input type="text">
+                    It is
+                    <input type="text">
+                </div>
+                <div class="toDo">Put 2 dots between the numbers and add a unit of measurement:</div>
+                <div class="toDo"></div>10..35 euros, 300€..500€, 2010..2011</div>
+            </div>
+            
+            <div class="inputOne">
+                <div class="textDes"></div>
+                <div class="button">
+                    <input type="submit" value="Advanced Search">
+                </div>
+
+
+        </form>
+
+        
     </body>
 </html>
